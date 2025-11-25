@@ -1,7 +1,7 @@
 {
   "name": "trustify-e2e",
   "dockerComposeFile": "./docker-compose.yml",
-  "service": "playwright",
+  "service": "trustify-playwright",
   "workspaceFolder": "/workspace/e2e",
   "remoteUser": "pwuser",
   "forwardPorts": [
