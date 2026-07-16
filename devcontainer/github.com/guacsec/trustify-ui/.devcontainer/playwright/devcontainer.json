@@ -15,10 +15,12 @@
     "ghcr.io/devcontainers/features/node:1": {
       "version": "22"
     },
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1": {},
     "ghcr.io/devcontainers/features/desktop-lite:1": {
       "VNC_RESOLUTION": "1920x1200x16"
     }
   },
+  "initializeCommand": "mkdir -p \"${HOME}/.config/gcloud\"",
   "portsAttributes": {
     "6080": {
       "label": "browser vnc"
